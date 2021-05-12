@@ -1,0 +1,66 @@
+/* Variable */
+
+:root{
+  --clr-pink-light:#e4add6;
+  --clr-pink-dark:rgb(238, 81, 199);
+  --clr-green-light:rgb(162, 225, 91);
+  --max-width: 1170px;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  --fixed-width: 600px;
+  --padding:2rem;
+  --margin:1rem;
+  --btn-width:680px;
+  --btn-height:50px;
+}
+
+
+.App{
+  background-color: rgb(233, 172, 233);
+  height: 100%;
+  width: 100%;
+  padding:4rem;
+  align-items: center;
+
+}
+
+
+
+.card{
+  background-color:white ;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  width: 800px;
+  height:100%;
+  padding: var(--padding);
+  margin: var(--margin);
+  
+}
+
+.card>button{
+  background-color:var(--clr-pink-light);
+  width: var(--btn-width);
+  height: var(--btn-height);
+  margin: 2rem;
+}
+
+.person>img{
+ height:25vw;
+ width: 30vw;
+ margin:2rem ;
+ border-radius: 50%;
+}
+
+.person-details{
+  height: 5vw;
+  margin-bottom: 1rem;
+}
+
+.person{
+  margin:2rem;
+  padding:2rem;
+ box-shadow: 10px 10px 10px 5px rgb(238, 81, 199);;
+
+}
+
+
